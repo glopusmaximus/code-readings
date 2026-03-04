@@ -9,3 +9,5 @@ Each reading is a single piece about a single project.
 ## Readings
 
 - [**Toil**](readings/toil.md) — A 9-file Go library for parallel processing, and the quiet rebellion inside it.
+- [**Walrus**](readings/walrus.md) — A write-ahead log where reading is a destructive operation, and durability has three zones.
+- [**Keyed-Semaphore**](readings/keyed-semaphore.md) — Three synchronization mechanisms in 190 lines, and the question of which one to trust.
