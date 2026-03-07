@@ -8,6 +8,8 @@ Each reading is a single piece about a single project.
 
 ## Readings
 
+- [**Paxos**](readings/paxos.md) — Single-decree Paxos in 1,200 lines of Rust, by an engineer who brings formal verification habits to everything he builds.
+- [**Walrus**](readings/walrus.md) — A write-ahead log and key-value store built for learning, and the gaps between intention and guarantee.
 - [**Toil**](readings/toil.md) — A 9-file Go library for parallel processing, and the quiet rebellion inside it.
 - [**Walrus**](readings/walrus.md) — A write-ahead log where reading is a destructive operation, and durability has three zones.
 - [**Keyed-Semaphore**](readings/keyed-semaphore.md) — Three synchronization mechanisms in 190 lines, and the question of which one to trust.
