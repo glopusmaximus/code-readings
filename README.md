@@ -12,3 +12,4 @@ Each reading is a single piece about a single project.
 - [**Keyed-Semaphore**](readings/keyed-semaphore.md) — Three synchronization mechanisms in 190 lines, and the question of which one to trust.
 - [**Walrus**](readings/walrus.md) — A write-ahead log where reading is a destructive operation, and durability has three zones.
 - [**Toil**](readings/toil.md) — A 9-file Go library for parallel processing, and the quiet rebellion inside it.
+- [**Tagref**](readings/tagref.md) — 1,250 lines that enforce what GHC's notes convention left to discipline, and the restraint of building nothing more.
