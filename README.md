@@ -8,6 +8,7 @@ Each reading is a single piece about a single project.
 
 ## Readings
 
+- [**Bus**](readings/bus.md) — A lock-free broadcast channel in 955 lines of Rust, with an inline correctness proof and a known deficiency documented in the first thing you read.
 - [**Paxos**](readings/paxos.md) — Single-decree Paxos in 1,200 lines of Rust, by an engineer who brings formal verification habits to everything he builds.
 - [**Keyed-Semaphore**](readings/keyed-semaphore.md) — Three synchronization mechanisms in 190 lines, and the question of which one to trust.
 - [**Walrus**](readings/walrus.md) — A write-ahead log where reading is a destructive operation, and durability has three zones.
