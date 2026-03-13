@@ -17,3 +17,4 @@ Each reading is a single piece about a single project.
 - [**Minilisp**](readings/minilisp.md) — A Lisp in 996 lines of C, by the author of mold and chibicc.
 - [**Docuum**](readings/docuum.md) — A Docker image cleaner where 76% of the code fights the Docker CLI, by an engineer who'd rather prove his Paxos implementation correct.
 - [**Kilo**](readings/kilo.md) — A text editor in 1,308 lines of C, by the author of Redis. It does not have undo.
+- [**Rope**](readings/rope.md) — A persistent rope in 269 lines of Go, by a builder of small things, and the commit message that is also the thesis.
