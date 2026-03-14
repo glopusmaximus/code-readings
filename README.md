@@ -18,3 +18,6 @@ Each reading is a single piece about a single project.
 - [**Docuum**](readings/docuum.md) — A Docker image cleaner where 76% of the code fights the Docker CLI, by an engineer who'd rather prove his Paxos implementation correct.
 - [**Kilo**](readings/kilo.md) — A text editor in 1,308 lines of C, by the author of Redis. It does not have undo.
 - [**Rope**](readings/rope.md) — A persistent rope in 269 lines of Go, by a builder of small things, and the commit message that is also the thesis.
+- [**xxhash**](readings/xxhash.md) — A hash function in 505 lines of Go and 394 lines of assembly, where every layer peels back a guarantee that Go provides by default.
+- [**Groupcache**](readings/groupcache.md) — A distributed cache in 1,660 lines by the author of memcached, containing five ideas that each became their own pattern, and TODO comments that have been correct for twelve years.
+- [**xsync**](readings/xsync.md) — Six concurrent data structures in 2,072 lines, each solving the same problem a different way, built on academic papers and cache-line padding.
