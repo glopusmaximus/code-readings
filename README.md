@@ -21,3 +21,6 @@ Each reading is a single piece about a single project.
 - [**xxhash**](readings/xxhash.md) — A hash function in 505 lines of Go and 394 lines of assembly, where every layer peels back a guarantee that Go provides by default.
 - [**Groupcache**](readings/groupcache.md) — A distributed cache in 1,660 lines by the author of memcached, containing five ideas that each became their own pattern, and TODO comments that have been correct for twelve years.
 - [**xsync**](readings/xsync.md) — Six concurrent data structures in 2,072 lines, each solving the same problem a different way, built on academic papers and cache-line padding.
+- [**go-socks5**](readings/go-socks5.md) — A SOCKS5 server in 765 lines by the CTO of HashiCorp, written in five hours, with six interfaces that make the skipped features irrelevant.
+- [**ARP**](readings/arp.md) — RFC 826 in 675 lines of Go, where go-fuzz proved the wire format lies about its own field lengths, and a single allocation holds four addresses.
+- [**Consistent**](readings/consistent.md) — Consistent hashing with bounded loads in 393 lines, implementing a Google paper in three layers that fit in one file, extracted from a production distributed cache.
