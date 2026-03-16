@@ -24,3 +24,6 @@ Each reading is a single piece about a single project.
 - [**go-socks5**](readings/go-socks5.md) — A SOCKS5 server in 765 lines by the CTO of HashiCorp, written in five hours, with six interfaces that make the skipped features irrelevant.
 - [**ARP**](readings/arp.md) — RFC 826 in 675 lines of Go, where go-fuzz proved the wire format lies about its own field lengths, and a single allocation holds four addresses.
 - [**Consistent**](readings/consistent.md) — Consistent hashing with bounded loads in 393 lines, implementing a Google paper in three layers that fit in one file, extracted from a production distributed cache.
+- [**Tunny**](readings/tunny.md) — A goroutine pool in 435 lines where workers push availability instead of pulling work, and a 2018 rewrite that deleted features to become honest.
+- [**Cuckoo Filter**](readings/cuckoofilter.md) — A paper implementation in 486 lines of Go where one decision — `type fingerprint byte` — determines everything else, and the community built what the author deliberately didn't.
+- [**NTP**](readings/ntp.md) — An NTP client in 1,092 lines where the most honest way to ask for the time is to lie about yours, maintained by one person for a decade, fixing the 2036 rollover twelve years early.
