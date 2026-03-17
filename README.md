@@ -27,3 +27,6 @@ Each reading is a single piece about a single project.
 - [**Tunny**](readings/tunny.md) — A goroutine pool in 435 lines where workers push availability instead of pulling work, and a 2018 rewrite that deleted features to become honest.
 - [**Cuckoo Filter**](readings/cuckoofilter.md) — A paper implementation in 486 lines of Go where one decision — `type fingerprint byte` — determines everything else, and the community built what the author deliberately didn't.
 - [**NTP**](readings/ntp.md) — An NTP client in 1,092 lines where the most honest way to ask for the time is to lie about yours, maintained by one person for a decade, fixing the 2036 rollover twelve years early.
+- [**Swiss**](readings/swiss.md) — A hash map in 354 lines of Go that became the implementation behind `map[K]V` in Go 1.24, then was archived because the language said yes.
+- [**Ratelimit**](readings/ratelimit.md) — Three implementations of the same one-method interface in 425 lines, each eliminating the previous version's bottleneck, with the commit log recording every attempt and its failure mode.
+- [**Gobreaker**](readings/gobreaker.md) — A circuit breaker in 380 lines with a generation counter that makes time travel impossible, maintained by one person at Sony for eleven years.
